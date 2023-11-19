@@ -1,7 +1,6 @@
 .nets{
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
+        @include flex(center, null, 1rem)
+                
         }
     
     .facebook, .instagram, .whatsapp{

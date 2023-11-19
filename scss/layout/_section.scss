@@ -1,0 +1,11 @@
+.viñedos{
+    @include flex(center, center, 20px);
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+ 
+.viñedos img{
+    @include flex(center, center, null);
+    max-width: 100%;
+    
+}  
