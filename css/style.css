@@ -20,7 +20,17 @@ a {
 }
 
 .navbar {
-  justify-content: center;
+  background-size: cover;
+  font-size: large;
+}
+
+.nav-item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+li:hover {
+  text-decoration: underline black;
 }
 
 .container {
@@ -28,16 +38,58 @@ a {
 }
 
 .container img {
-  width: 3rem;
+  width: 6rem;
 }
 
 header {
   background-image: url("../../css/img/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  background-position: center;
+  padding: 20rem 5rem;
+}
+
+.color-vino {
+  color: rgb(81, 16, 5);
+}
+
+.fondo {
+  background-color: rgb(81, 16, 5);
+}
+
+#servicios {
+  padding-top: 6rem;
+}
+
+#servicios h3 {
+  font-size: large;
+  font-weight: 700;
+}
+
+#servicios p {
+  font-family: Raleway;
+  font-size: small;
+  font-weight: 400;
+  text-align: left;
+}
+
+.card-text {
+  font-family: Raleway;
+  font-size: small;
+  font-weight: 400;
+  text-align: justify;
+}
+
+#productos {
+  padding-top: 6rem;
+}
+
+.fondo {
+  background-color: rgb(81, 16, 5);
+}
+
+#vinas {
+  padding-top: 6rem;
 }
 
 .viñedos {
@@ -54,6 +106,35 @@ header {
   justify-content: center;
   align-content: center;
   max-width: 100%;
+}
+
+.viñedos h3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.nvinas {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Raleway;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 100%;
+}
+
+.name-viña {
+  font-family: Monserrat;
+  font-size: medium;
+  font-weight: 700;
+  text-align: center;
 }
 
 .nets {

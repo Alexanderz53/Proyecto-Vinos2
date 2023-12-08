@@ -1,12 +1,23 @@
 .navbar{
-    justify-content: center;
+    background-size: cover;
+    // justify-content: space-between;
+    font-size:large;
+    }
+.nav-item{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
+li:hover{
+    
+    text-decoration: underline black;
+}
+
 .container{
     justify-content: center;
 }
 .container img{
-    width: 3rem;
-}
+    width: 6rem;
+}   
 
 
     

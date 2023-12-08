@@ -1,3 +1,42 @@
+#servicios{
+    padding-top: 6rem;  
+}
+
+#servicios h3{
+    font-size: large;
+    font-weight: 700;
+}
+#servicios p{
+    @include text(Raleway, small, 400, left)
+    // font-family: Monserrat, sans-serif;
+    // font-size:smaller;
+    // font-weight: 400; 
+    // text-align: left;  
+}
+
+.card-text {
+    @include text(Raleway, small, 400, justify)
+    // font-family: Monserrat, sans-serif;
+    // font-size: small;
+    // font-weight: 400; 
+    // text-align: justify;
+}
+
+#productos{
+    padding-top: 6rem;
+}
+
+.fondo{
+   background-color: rgb(81, 16, 5);
+}
+
+// .tipos {
+//     padding:1rem auto;
+// }
+#vinas{
+    padding-top: 6rem;
+}
+
 .viñedos{
     @include flex(center, center, 20px);
     flex-wrap: wrap;
@@ -9,3 +48,22 @@
     max-width: 100%;
     
 }  
+.viñedos h3 {
+    @include flex(center, center, null);
+}
+
+.nvinas{
+    display:flex;
+    flex-wrap: wrap;
+    @include text(Raleway, 1.2rem, 400, left)
+        
+}   
+
+
+.carousel-item {
+    @include flex(center, center, null);
+    max-width: 100%;
+}   
+.name-viña{
+    @include text(Monserrat, medium, 700, center)
+}

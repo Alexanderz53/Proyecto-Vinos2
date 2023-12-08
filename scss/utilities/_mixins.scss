@@ -5,3 +5,9 @@
     gap: $gap;
 }
     
+@mixin text($ffamily,$fsize,$fweight,$talign){
+    font-family: $ffamily;
+    font-size: $fsize;
+    font-weight:$fweight;
+    text-align: $talign;
+}
